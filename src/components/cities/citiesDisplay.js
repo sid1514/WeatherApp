@@ -11,7 +11,7 @@ const CityDisplay=()=>{
     const dispatch=useDispatch()
     const nav=useNavigate()
     useEffect(()=>{
-        axios.get("https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/geonames-all-cities-with-a-population-1000/records?limit=100&refine=timezone%3A%22Asia%2FKolkata%22")
+        axios.get("https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/geonames-all-cities-with-a-population-1000/records?limit=200&refine=timezone%3A%22Asia%2FKolkata%22")
         .then((data)=>setCitites(data.data.results))
         .catch((e)=>console.log(e))  
     },[])
