@@ -1,0 +1,60 @@
+th ,td{
+   
+    width: 10rem;
+    height: 2rem;
+    max-width: 11rem;
+    max-height: 4rem;
+    border-top:1px solid rgb(98, 43, 43);
+}
+td{
+    padding-left: 4%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   
+    .custom-img-size{
+        width: 10%;
+        height: 10%;
+    }
+    .custom-head{
+        font-size: 2rem;
+    }
+    .custom-size-weather{
+        width: 100%;
+        height: 60rem;
+       position: relative;  
+    }
+    .custom-weather-inner{
+        margin-top: 5rem;
+        margin-left: 1rem;
+        padding-left: 1rem;
+        width: 90%;
+    }
+    .custom-weather-detail{
+        position: absolute;
+        left: 0;
+        margin-left: 10px;
+        margin-top: 4rem;
+        padding: 1rem;
+    }
+    .humid-img{
+        width: 25%;
+        height: 25%;
+        margin-left:1rem ;
+        margin-top: 1rem;
+    }
+    .wind-img{
+        width: 25%;
+        height: 45%; 
+        margin-right: 2rem;
+    }
+    .weather-headings{
+        font-size: 0.8rem;
+    }
+  }
+  
+ 
+  
+  
